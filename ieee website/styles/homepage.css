@@ -1,0 +1,82 @@
+header{
+    background-color: #443850;
+    height: 30vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A8DADC;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.logo{
+    font-family: "Bebas Neue", sans-serif;
+    color: #443850;
+}
+
+.nav-links{
+    display: flex;
+    font-weight: 600;
+    gap: 2rem;
+    
+}
+
+.nav-links a{
+    border-bottom: 2px transparent;
+}
+
+.nav-links a:hover{
+    border-bottom: solid;
+    color: #335f7a;
+    cursor: pointer;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.5rem;
+    color: #F1FAEE;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.5rem;
+    color: #443850;
+    text-align: center;
+}
+
+.cards, .card{
+    display: flex;
+}
+
+.cards{
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    gap: 0.5rem;
+    background-color: #443850;
+    color: #F1FAEE;
+    border-radius: 0.5rem;
+}
+
+.third-sec{
+    background-color: #A8DADC;
+    
+}
